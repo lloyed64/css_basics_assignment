@@ -51,7 +51,7 @@ table {
 /* This is the start of the normal style sheet */
 
 
-body
+body {
   font-size: 14px;
 }
 
@@ -59,7 +59,7 @@ nav {
   background color: yellow;
   height: 100px;
   margin-top: -10px;
-  position: fixed;
+  position: center;
   width: 100%;
 }
 
@@ -86,39 +86,29 @@ h3 {
   font-size: 1.3em;
 }
 
-div,  {
+div {
    background-color: pink;
  }
 
-.element {
+.element  {
   background-color:green;
   height: 100px;
-  /* missing property value separator */
-  margin: 10px 0;
+	margin: 10px 0;
   width: 100%;
 }
 
 /* I added different names of elements (element 7-9) and added the same
 properties and value of the .element in order to change the last three colors) */
 
-.element7 {
+.element7, .element8, .element9 {
   background-color:blue;
   height: 100px;
   margin: 10px 0;
   width: 100%;
 }
-
 .element8 {
   background-color:pink;
-  height: 100px;
-  margin: 10px 0;
-  width: 100%;
-
 }
 .element9 {
   background-color: red;
-  height: 100px;
-  margin: 10px 0;
-  width: 100%;
-
 }
